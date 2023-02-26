@@ -184,6 +184,16 @@ display:inline;
   color: #fff; 
 }
 
+
+#playbutton{
+  color: #aca1a1; 
+}
+
+
+#exportbutton{
+  color: #aca1a1; 
+}
+
 #setbutton{
   color: #fff; 
 }
@@ -332,6 +342,27 @@ a.btn-customized-5:active
 	outline: 0; background: #555; border: 0; color: #fff; box-shadow: none;
 }
 
+a.btn-customized-6 {
+ 
+	display: inline-block; width: 150px; height: 28px;  margin: 0; padding: .15rem 0.5rem; 
+	background: #363232; border: 0; border-radius: 4px; 
+	font-size: 16px; font-weight: 300; color: #fff; box-shadow: none;
+}
+
+a.btn-customized-6:hover 
+ {
+	outline: 0; background: #474444; border: 0; color: #fff; box-shadow: none;
+}
+
+a.btn-customized-6:focus, 
+a.btn-customized-6:active:focus, 
+a.btn-customized-6.active:focus,
+a.btn-customized-6.btn.btn-primary:not(:disabled):not(.disabled):active,
+a.btn-customized-6.btn.btn-primary:not(:disabled):not(.disabled):active:focus,
+a.btn-customized-6:active
+{
+	outline: 0; background: #555; border: 0; color: #fff; box-shadow: none;
+}
 
 /***** General style, all sections *****/
 
@@ -373,6 +404,18 @@ a.btn-customized-5:active
 /***** Section 1 *****/
 
 .section-1-box { padding-top: 0px; text-align: left; }
+
+.section-1-button-box {  
+  width: 700px;
+  padding-top: 10px;
+
+}
+
+.section-1-button {  
+  padding-right: 10px;
+  
+}
+
 
 .section-1-box .section-1-box-icon {
 	width: 80px; height: 40px; margin: 0 auto;
@@ -496,6 +539,44 @@ a.btn-customized-5:active
 
 
 /***** Slider ****/
+
+.myslider {
+  -webkit-appearance: none;
+  width: 100px;
+  height: 10px;
+  border-radius: 5px;  
+  margin-top: 10px;
+  margin-left: 10px;
+
+  background: #555;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.myslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  background: white;
+  cursor: pointer;
+}
+
+.myslider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+
+/***** Toggle Slider ****/
+
+
 .switch {
   position: relative;
   display: inline-block;
