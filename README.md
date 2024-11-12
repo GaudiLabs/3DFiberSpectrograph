@@ -8,5 +8,5 @@ https://gaudishop.ch/index.php/product/3d-printed-fiber-spectrometer-kit/
 https://github.com/GaudiLabs/3DFiberSpectrograph
 
 ### License
-OpenDrop, all design files and software are licensed under a GNU GENERAL PUBLIC LICENSE See license file in the repository.
+3DFiberSpectrograph software is licensed under a GNU GENERAL PUBLIC LICENSE.
 
