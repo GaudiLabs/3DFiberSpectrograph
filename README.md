@@ -5,7 +5,7 @@ The 3DFiberSpectrometer is easy to build and functional instrument.
 https://gaudishop.ch/index.php/product/3d-printed-fiber-spectrometer-kit/
 
 ### View online here:
-https://github.com/GaudiLabs/3DFiberSpectrograph
+https://gaudi.ch/Spectrometer/
 
 ### License
 3DFiberSpectrograph software is licensed under a GNU GENERAL PUBLIC LICENSE.
